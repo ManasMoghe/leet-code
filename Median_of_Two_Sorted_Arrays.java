@@ -7,6 +7,7 @@ class Median
         int[] x=new int[nums1.length+nums2.length];
         System.arraycopy(nums1, 0, x, 0, nums1.length);
         System.arraycopy(nums2,0, x, nums1.length, nums2.length);
+        Arrays.sort(x);
         int n=x.length;
         if (n%2==0)
         {
