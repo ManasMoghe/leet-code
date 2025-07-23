@@ -11,7 +11,7 @@ class Solution
         int n=x.length;
         if (n%2==0)
         {
-            return x[n/2-1]+x[n/2]/2.0;
+            return (x[n/2-1]+x[n/2])/2.0;
         }
         else
         {
